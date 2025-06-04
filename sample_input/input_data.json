@@ -1,0 +1,26 @@
+[
+ {"CustomerID": 2.0,
+  "Age": 30.0,
+  "Gender": "Female",
+  "Tenure": 39.0,
+  "Usage Frequency": 14.0,
+  "Support Calls": 5.0,
+  "Payment Delay": 18.0,
+  "Subscription Type": "Standard",
+  "Contract Length": "Annual",
+  "Total Spend": 932.0,
+  "Last Interaction": 17.0},
+
+   {"CustomerID": 3.0,
+  "Age": 65,
+  "Gender": "Male",
+  "Tenure": 20,
+  "Usage Frequency": 7,
+  "Support Calls": 5.0,
+  "Payment Delay": 3,
+  "Subscription Type": "Premium",
+  "Contract Length": "Monthly",
+  "Total Spend": 400,
+  "Last Interaction": 10}
+
+]
