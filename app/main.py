@@ -38,14 +38,18 @@ def predict(json_data):
     return result
 
 def feature_validation(json_data):
-    required_features = ['CustomerID', 'Age', 'Gender', 'Tenure', 'Usage Frequency', 'Support Calls', 'Payment Delay', 'Subscription Type', 'Contract Length', 'Total Spend', 'Last Interaction']
-    missing_features = []
-    for feature in required_features:
-        for data in json_data:
-            if feature not in list(data.keys()):
-                missing_features.append(feature)
-    return missing_features
-        
+    required_features = {'CustomerID', 'Age', 'Gender', 'Tenure', 'Usage Frequency', 'Support Calls',
+                         'Payment Delay', 'Subscription Type', 'Contract Length', 'Total Spend', 'Last Interaction'}
+    missing = set()
+    for i, data in enumerate(json_data):
+        missing.update(required_features - set(data.keys()))
+    return list(missing)
+
+
+@app.route('/health', methods=['GET'])
+def health():
+    return jsonify({"status": "UP"}), 200
+       
 
 # Define API route
 @app.route('/predict_churn', methods=['POST'])
