@@ -37,6 +37,16 @@ def predict(json_data):
 
     return result
 
+def feature_validation(json_data):
+    required_features = ['CustomerID', 'Age', 'Gender', 'Tenure', 'Usage Frequency', 'Support Calls', 'Payment Delay', 'Subscription Type', 'Contract Length', 'Total Spend', 'Last Interaction']
+    missing_features = []
+    for feature in required_features:
+        for data in json_data:
+            if feature not in list(data.keys()):
+                missing_features.append(feature)
+    return missing_features
+        
+
 # Define API route
 @app.route('/predict_churn', methods=['POST'])
 def predict_churn():
@@ -44,6 +54,10 @@ def predict_churn():
         json_data = request.get_json()
         if not json_data:
             return jsonify({"error": "No input data provided"}), 400
+        
+        missing = feature_validation(json_data)
+        if missing:
+            return jsonify({"error": f"Missing columns: {missing}"}), 400
 
         predictions = predict(json_data)
         return jsonify(predictions)
