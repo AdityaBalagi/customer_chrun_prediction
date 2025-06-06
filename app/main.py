@@ -10,6 +10,8 @@ app = Flask(__name__)
 
 # Load Model 
 model = joblib.load("rf_chrun_model.pkl")
+# Load Scaler
+scaler = joblib.load("scaler.pkl")
 
 # Prediction function
 def predict(json_data):
@@ -23,8 +25,7 @@ def predict(json_data):
     df["Contract Length"].replace({"Monthly": 0, "Quarterly": 1, "Annual": 2}, inplace=True)
 
     # Normalize data with MinMaxScaler
-    scaler = MinMaxScaler()
-    df_scaled = scaler.fit_transform(df)  # WARNING: Should ideally use the same scaler used during training
+    df_scaled = scaler.transform(df)  # WARNING: Should ideally use the same scaler used during training
 
     # Make prediction
     prediction = model.predict(df_scaled)
