@@ -15,8 +15,8 @@ BUCKET_NAME = "ml-model-data-v1"
 MODEL_BLOB_NAME = "rf_chrun_model.pkl"
 SCALER_BLOB_NAME = "scaler.pkl"
 
-LOCAL_MODEL_PATH = "/tmp/rf_chrun_model.pkl"
-LOCAL_SCALER_PATH = "/tmp/scaler.pkl"
+LOCAL_MODEL_PATH = "rf_chrun_model.pkl"
+LOCAL_SCALER_PATH = "scaler.pkl"
 
 # --- Global Variables ---
 model = None
