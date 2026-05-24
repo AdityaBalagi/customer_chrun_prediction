@@ -1,4 +1,4 @@
-# Churn Prediction Project
+# Customer Churn Prediction
 
 ## Overview
 This repository contains a full customer churn prediction application for application users.
