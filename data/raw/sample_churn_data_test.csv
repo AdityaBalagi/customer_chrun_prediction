@@ -1,0 +1,21 @@
+user_id,gender,age,tenure_months,monthly_charges,total_charges,contract_type,payment_method,support_tickets,num_logins_last_month,avg_session_minutes
+U0001,Male,45,12,70.50,846.00,Month-to-month,Credit card,3,20,45
+U0002,Female,34,6,55.00,330.00,Month-to-month,Electronic check,2,17,38
+U0003,Male,53,24,90.99,2183.76,One year,Bank transfer,1,16,42
+U0004,Female,29,3,39.90,119.70,Month-to-month,Electronic check,5,10,25
+U0005,Male,41,18,65.75,1183.50,One year,Credit card,2,22,50
+U0006,Female,37,9,49.99,449.91,Month-to-month,Debit card,4,14,30
+U0007,Male,50,36,99.50,3582.00,Two year,Bank transfer,1,28,60
+U0008,Female,26,2,35.00,70.00,Month-to-month,Electronic check,6,8,20
+U0009,Male,31,15,75.25,1128.75,One year,Credit card,2,19,40
+U0010,Female,47,30,88.40,2652.00,Two year,Bank transfer,1,25,55
+U0011,Male,39,10,58.99,589.90,Month-to-month,Debit card,3,18,35
+U0012,Female,28,5,42.50,212.50,Month-to-month,Electronic check,4,12,28
+U0013,Male,55,48,105.75,5076.00,Two year,Credit card,0,30,70
+U0014,Female,33,14,67.30,942.20,One year,Bank transfer,2,21,44
+U0015,Male,44,20,82.10,1642.00,One year,Debit card,1,23,48
+U0016,Female,24,1,29.99,29.99,Month-to-month,Electronic check,7,5,15
+U0017,Male,36,16,72.45,1159.20,One year,Credit card,2,20,41
+U0018,Female,52,40,95.60,3824.00,Two year,Bank transfer,1,27,62
+U0019,Male,30,8,54.25,434.00,Month-to-month,Debit card,3,15,32
+U0020,Female,43,22,85.90,1889.80,One year,Credit card,1,24,53

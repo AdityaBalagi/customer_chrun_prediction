@@ -1,0 +1,51 @@
+user_id,gender,age,tenure_months,monthly_charges,total_charges,contract_type,payment_method,support_tickets,num_logins_last_month,avg_session_minutes,churned
+U0001,Male,45,12,70.50,846.00,Month-to-month,Credit card,3,20,45,0
+U0002,Female,34,6,55.00,330.00,Month-to-month,Electronic check,2,17,38,1
+U0003,Male,53,24,90.99,2183.76,One year,Bank transfer,1,16,42,0
+U0004,Female,29,3,39.90,119.70,Month-to-month,Electronic check,5,10,25,1
+U0005,Male,60,36,120.00,4320.00,Two year,Credit card,0,19,50,0
+U0006,Female,41,9,82.30,740.70,Month-to-month,Electronic check,4,14,36,1
+U0007,Male,22,2,25.00,50.00,Month-to-month,Mail check,6,8,20,1
+U0008,Female,37,18,64.00,1152.00,One year,Bank transfer,2,21,47,0
+U0009,Male,50,48,110.00,5280.00,Two year,Credit card,1,23,55,0
+U0010,Female,27,5,49.99,249.95,Month-to-month,Electronic check,4,12,30,1
+U0011,Male,58,30,104.50,3135.00,Two year,Electronic check,0,20,48,0
+U0012,Female,32,10,75.00,750.00,Month-to-month,Credit card,3,13,33,1
+U0013,Male,48,20,88.50,1770.00,One year,Bank transfer,1,18,44,0
+U0014,Female,39,15,69.90,1048.50,One year,Mail check,2,17,39,0
+U0015,Male,23,4,32.00,128.00,Month-to-month,Electronic check,5,9,23,1
+U0016,Female,56,40,115.99,4639.60,Two year,Credit card,0,24,52,0
+U0017,Male,30,8,58.60,468.80,Month-to-month,Bank transfer,3,15,35,1
+U0018,Female,46,27,97.25,2625.75,One year,Credit card,1,19,46,0
+U0019,Male,28,7,52.70,368.90,Month-to-month,Mail check,4,13,32,1
+U0020,Female,61,60,130.00,7800.00,Two year,Bank transfer,0,25,58,0
+U0021,Male,35,14,72.50,1015.00,One year,Electronic check,2,18,41,0
+U0022,Female,42,11,80.00,880.00,Month-to-month,Credit card,3,16,38,1
+U0023,Male,26,1,29.99,29.99,Month-to-month,Mail check,7,7,18,1
+U0024,Female,49,22,95.00,2090.00,One year,Bank transfer,1,20,45,0
+U0025,Male,54,33,108.50,3580.50,Two year,Credit card,0,22,54,0
+U0026,Female,31,13,66.99,870.87,Month-to-month,Electronic check,3,14,36,1
+U0027,Male,40,17,83.20,1414.40,One year,Mail check,2,19,43,0
+U0028,Female,25,6,45.00,270.00,Month-to-month,Bank transfer,4,12,31,1
+U0029,Male,52,41,112.30,4600.30,Two year,Credit card,0,23,56,0
+U0030,Female,38,19,77.50,1472.50,One year,Electronic check,2,20,44,0
+U0031,Male,29,3,35.00,105.00,Month-to-month,Mail check,6,9,22,1
+U0032,Female,55,28,99.90,2797.20,One year,Bank transfer,1,20,47,0
+U0033,Male,33,16,70.25,1124.00,Month-to-month,Credit card,3,15,37,1
+U0034,Female,44,21,92.40,1940.40,One year,Electronic check,2,18,41,0
+U0035,Male,24,2,27.50,55.00,Month-to-month,Mail check,5,10,24,1
+U0036,Female,57,50,118.00,5900.00,Two year,Bank transfer,0,24,53,0
+U0037,Male,36,12,68.99,827.88,Month-to-month,Electronic check,4,16,39,1
+U0038,Female,47,23,94.50,2173.50,One year,Credit card,2,20,45,0
+U0039,Male,21,5,40.00,200.00,Month-to-month,Mail check,6,11,26,1
+U0040,Female,63,55,132.50,7287.50,Two year,Bank transfer,0,26,60,0
+U0041,Male,39,18,76.20,1371.60,One year,Electronic check,2,19,43,0
+U0042,Female,27,8,48.99,391.92,Month-to-month,Credit card,4,13,34,1
+U0043,Male,51,29,101.00,2929.00,One year,Mail check,1,21,49,0
+U0044,Female,43,14,73.30,1026.20,Month-to-month,Bank transfer,3,17,40,1
+U0045,Male,20,1,28.00,28.00,Month-to-month,Electronic check,7,8,19,1
+U0046,Female,59,38,116.75,4436.50,Two year,Credit card,0,23,55,0
+U0047,Male,34,10,64.20,642.00,Month-to-month,Electronic check,3,15,37,1
+U0048,Female,48,26,89.60,2329.60,One year,Bank transfer,1,19,46,0
+U0049,Male,30,7,53.40,373.80,Month-to-month,Mail check,4,14,33,1
+U0050,Female,62,52,128.00,6656.00,Two year,Credit card,0,25,57,0

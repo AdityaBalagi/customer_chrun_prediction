@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Churn Prediction Upload</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <h1>Churn Prediction CSV Upload</h1>
+      <p>Upload a CSV file containing raw user data. The response will be a CSV with <code>user_id</code>, <code>predicted_churn</code>, and <code>predicted_probability</code>.</p>
+      <form method="post" action="/predict" enctype="multipart/form-data">
+        <label for="file">Choose CSV file:</label>
+        <input type="file" id="file" name="file" accept=".csv" required />
+        <button type="submit">Predict churn</button>
+      </form>
+      <div class="notes">
+        <strong>Note:</strong> Ensure your CSV contains the same columns used in the sample dataset, including <code>user_id</code>.
+      </div>
+    </div>
+  </body>
+</html>
