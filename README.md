@@ -74,12 +74,11 @@ Install all required packages from `requirements.txt`.
 
 ## Environment Setup (Windows PowerShell)
 1. Open PowerShell in the project root.
-2. Create and activate the virtual environment:
+2. Run the setup script to create and activate the virtual environment and install dependencies:
    ```powershell
-   python -m venv .venv
-   .\.venv\Scripts\Activate.ps1
+   .\setup.ps1
    ```
-3. Upgrade pip and install requirements:
+3. If you need to manually upgrade pip later:
    ```powershell
    python -m pip install --upgrade pip
    pip install -r requirements.txt
