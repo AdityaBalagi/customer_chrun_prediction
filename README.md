@@ -99,7 +99,7 @@ Install all required packages from `requirements.txt`.
 ## Running the Flask Inference API
 1. Start the API server:
    ```powershell
-   python .\src\api\app.py
+   python -m src.api.app
    ```
 2. Visit:
    ```text
